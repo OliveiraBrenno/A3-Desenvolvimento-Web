@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+main {
+  background-color: #1e1e1e;
+  padding: 5vh 5vw;
+  border-radius: 1vh;
+  box-shadow: 0 0.5vh 2.5vh rgba(0, 0, 0, 0.7);
+  width: 90vw;
+  max-width: 600px;
+  text-align: center;
+}
+
+#title {
+  font-size: 4vh;
+  font-weight: bold;
+  margin-bottom: 4vh;
+  color: #bb86fc;
+}
+
+.container-input {
+  margin-bottom: 4vh;
+}
+
+.container-input span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vh;
+  margin-bottom: 2vh;
+  color: #e0e0e0;
+}
+
+.container-input span #valor {
+  margin: 0 0.5vh;
+}
+
+.slider {
+  width: 100%;
+  margin-bottom: 4vh;
+}
+
+.button-cta {
+  font-weight: bold;
+  background-color: #bb86fc;
+  color: #121212;
+  border: none;
+  padding: 2vh 4vw;
+  border-radius: 1vh;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-cta:hover {
+  background-color: #a076db;
+}
+
+.container-password {
+  background-color: #2a2a2a;
+  padding: 2vh;
+  border-radius: 1vh;
+  box-shadow: 0 0.5vh 1.5vh rgba(0, 0, 0, 0.5);
+}
+
+.container-password.hide {
+  display: none;
+}
+
+.mensagem {
+  display: block;
+  margin-bottom: 2vh;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.password {
+  display: block;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #bb86fc;
+  word-wrap: break-word;
+  margin-bottom: 2vh;
+}
+
+.tooltip {
+  font-size: 2vh;
+  color: #9e9e9e;
+}
